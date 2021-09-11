@@ -15,7 +15,7 @@ const discussUrl = (slug) =>
 export default function BlogLayout({ children, frontMatter }) {
   return (
     <Container
-      title={`${frontMatter.title} – Lee Robinson`}
+      title={`${frontMatter.title} – Tisuela`}
       description={frontMatter.summary}
       image={`https://leerob.io${frontMatter.image}`}
       date={new Date(frontMatter.publishedAt).toISOString()}
